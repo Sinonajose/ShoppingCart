@@ -8,6 +8,7 @@ namespace CartApi.Models
 {
     public class Product
     {
+        //add key
         [Key]
         public string PId { get; set; }
         public string product { get; set; }
